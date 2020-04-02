@@ -44,3 +44,34 @@ main_class.js - new style ES2015
 ### Uninstall
 
 * Not necessary. Simple delete folder.
+
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main_oldclass.js"></script>
+
+<br/>
+<div class="field" align="left">
+  <h3>Upload your images</h3>
+
+<div class="Attach">
+
+  <div class="Attach-Head">
+    <input id="photos_btn" type="button" value="Выбрать файлы" onclick="document.getElementById('photos').click();"/>
+    <label id="photos_label" for="photos_btn" >Файлы не выбраны</label>
+  </div>
+  <div class="Attach-Body">
+            <form action="index.html" enctype="multipart/form-data" method="post">
+                <input id="photos" style="display:none;" type="file" name="photos[]" multiple accept="image/*" />
+                <div id="pips"></div><br/><br/>
+                <input id="photos_send" type="button" value="Отправить" onclick="uploadfiles.sendImages('upload.php');"/>
+                <input id="photos_delall" type="button" value="Удалить все изображения" onclick="uploadfiles.delImages();"/>
+                <br/>
+            </form>
+  </div>
+</div>
+
+<br/>
+</div>
+
+<script type="text/javascript" src="prg.js" defer></script>
+
