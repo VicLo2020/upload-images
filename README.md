@@ -45,33 +45,5 @@ main_class.js - new style ES2015
 
 * Not necessary. Simple delete folder.
 
-
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="main_oldclass.js"></script>
-
-<br/>
-<div class="field" align="left">
-  <h3>Upload your images</h3>
-
-<div class="Attach">
-
-  <div class="Attach-Head">
-    <input id="photos_btn" type="button" value="Выбрать файлы" onclick="document.getElementById('photos').click();"/>
-    <label id="photos_label" for="photos_btn" >Файлы не выбраны</label>
-  </div>
-  <div class="Attach-Body">
-            <form action="index.html" enctype="multipart/form-data" method="post">
-                <input id="photos" style="display:none;" type="file" name="photos[]" multiple accept="image/*" />
-                <div id="pips"></div><br/><br/>
-                <input id="photos_send" type="button" value="Отправить" onclick="uploadfiles.sendImages('upload.php');"/>
-                <input id="photos_delall" type="button" value="Удалить все изображения" onclick="uploadfiles.delImages();"/>
-                <br/>
-            </form>
-  </div>
-</div>
-
-<br/>
-</div>
-
-<script type="text/javascript" src="prg.js" defer></script>
-
+![2020-04-02_18-13-24](https://user-images.githubusercontent.com/56202798/78254367-3c02d800-750f-11ea-8a4d-dbd9c62ea16b.png)
+![2020-04-02_18-16-42](https://user-images.githubusercontent.com/56202798/78254600-9bf97e80-750f-11ea-9f2c-c906fa429ccb.png)
