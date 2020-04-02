@@ -46,8 +46,8 @@ main_class.js - new style ES2015
 * Not necessary. Simple delete folder.
 
 
-        <link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="main_oldclass.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="main_oldclass.js"></script>
 
 <br/>
 <div class="field" align="left">
