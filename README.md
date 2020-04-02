@@ -9,8 +9,6 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/) (optional)
 * [PHP](https://www.php.net/downloads.php)
-* [Apache](https://httpd.apache.org/download.cgi) Linux or [Apache for Windows](https://apache-windows.ru/)
-* [NGINX](https://nginx.org/)
 PS: Choose your own server suitable for you.
 
 ## Installation
@@ -27,7 +25,7 @@ Start:
 * php -S localhost:8000 -t {path to project}
 * Visit your site at [php -S 127.0.0.1:8000](http://localhost:8000).
 
-main_oldclass.js - old style
+main_oldclass.js - old style<br>
 main_class.js - new style ES2015
 
 ### Building
