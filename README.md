@@ -34,12 +34,7 @@ main_class.js - new style ES2015
 
 ### Use
 
-1. Visit your site at [http://localhost:8000](http://localhost:8000).
-2. If this is your first time on a page, you need to wait about 30 seconds. 
-
- * A button will appear for installing the application.
- * Or just click the "+" button located on the right in the address bar.
- * The application will be installed on your desktop. Now you can launch the application from the desktop.
+* Visit your site at [http://localhost:8000](http://localhost:8000).
 
 ### Uninstall
 
