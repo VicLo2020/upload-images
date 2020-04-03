@@ -189,18 +189,6 @@ class UploadImages
       }
     }
     
-    #uploadFile2 = function(url, formData) {
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', url, true);
-      xhr.onload = function(e) {
-        console.log('File uploading completed!');
-      };
-
-      // do the uploading
-      console.log('File uploading started!');
-      xhr.send(formData);
-    }
-
     #uploadFile = function(url, formData) {
       var xhr = new XMLHttpRequest();
       xhr.open('POST', url, true);
